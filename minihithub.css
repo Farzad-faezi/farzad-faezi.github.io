@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: #708090;
+}
+.container{
+width: 1200px;
+    margin: 0 auto;
+}
+.firstheader{
+    height: 30px;
+    background-color: #020537;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p1{
+    color: azure;
+}
+.menu{
+    height: 67px;
+    background-color: #D3D3D3;
+    display: flex;
+    justify-content: space-between;
+}
+.menuleft{
+    display: flex;
+    align-items:center; 
+}
+.menuleft ul{
+    list-style-type: none;
+    display: flex;
+    margin: 12px;
+    padding-left: 130px;
+}
+.menuleft ul li{
+    padding: 20px;
+}
+.h2menuleft{
+    padding-left: 42px
+}
+.menuright{
+    display: flex;
+    direction: rtl;
+    align-items: center;
+    padding-right: 20px;
+}
+.p2{
+    padding: 20px;
+    background-color: #ad293d;
+    color: azure;
+    width: 120px;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+    line-height: 0.2;
+    border-radius: 10px;
+}
+.h2menuright{
+    padding-right: 53px;
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.img1{
+    flex-shrink: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.section2{
+    background-color: antiquewhite;
+}
+.section2first{
+    direction: rtl;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    padding: 12px;
+}
+.first{
+    margin: 0 100px;
+    text-align: center;
+}
+.h2first{
+    padding-bottom: 30px;
+}
+.pfirst{
+    line-height: 30px;
+    text-align: center;
+    color: #020537;
+}
+.img2{
+    width: 512px;
+    height: 512px;
+}
+.section2second{
+    direction: ltr;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    padding: 12px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.section3{
+    width: 1200px;
+    height: 700px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+.img3{
+    flex-grow: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.footer{
+    height: 60px;
+    background-color: #020537;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer i{
+    padding: 0 30px;
+}
